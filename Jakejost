@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jake's Future Plans</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      background: white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 15px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: #e9ecef;
+    }
+    img.inline {
+      width: 80px;
+      height: auto;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    iframe {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+    }
+    footer {
+      background: #004080;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Jake</h1>
+    <p>Exploring My Future After High School</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>What I Want to Do After High School</h2>
+      <p>
+        I am interested in studying <strong>Fiber Optics</strong> and <strong>Satellite Internet</strong>. 
+        Both connect to important <em>computer networks</em> that rely on 
+        <em>protocols</em>, <em>bandwidth</em>, and <em>fault tolerance</em> to deliver data. 
+        Whether the signal travels as <em>analog data</em> turned into digital 
+        <em>bits</em> and <em>bytes</em>, or across space as packets routed by 
+        <em>routers</em>, both fields shape how the world communicates.
+      </p>
+    </section>
+
+    <section>
+      <h2>Fiber Optics vs Satellite Internet</h2>
+      <table>
+        <tr>
+          <th>Fiber Optics</th>
+          <th>Satellite Internet</th>
+        </tr>
+        <tr>
+          <td>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Fiber_optic_cable.jpg" 
+                 alt="Fiber Optic Cable" class="inline">
+            Uses strands of glass to transmit light signals with high <strong>bandwidth</strong>.
+            Reliable because of <strong>redundancy</strong> in the physical network.
+            Often has <strong>low roundoff error</strong> and allows nearly <strong>lossless</strong> transmission.
+          </td>
+          <td>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Satellite_dish_2.jpg" 
+                 alt="Satellite Dish" class="inline">
+            Uses satellites to beam data across long distances. 
+            Works globally but may have higher delay due to packet travel along the <strong>path</strong>.  
+            Requires <strong>fault tolerant</strong> systems because of weather or orbital issues.
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>How the Internet Works</h2>
+      <p>
+        The internet depends on many layers: <strong>IP</strong> addressing, 
+        <strong>TCP</strong> for reliable packet delivery, and systems like 
+        <strong>DNS</strong> and <strong>HTTP</strong> that make the 
+        <strong>World Wide Web</strong> usable.  
+      </p>
+      <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/7_LPdttKXPc" 
+        title="YouTube video player" frameborder="0" 
+        allowfullscreen></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Jake</p>
+  </footer>
+
+</body>
+</html>
