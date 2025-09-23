@@ -14,13 +14,16 @@
       color: #333;
     }
     header {
-      background: #004080;
+      background: #002147; /* deep blue */
       color: white;
       padding: 20px;
       text-align: center;
     }
     h1 {
       margin: 0;
+    }
+    h2 {
+      color: #002147; /* deep blue headings */
     }
     main {
       padding: 20px;
@@ -41,13 +44,16 @@
       vertical-align: top;
     }
     th {
-      background: #e9ecef;
+      background: #003366; /* darker blue */
+      color: white;
     }
     img.inline {
-      width: 80px;
-      height: auto;
+      width: 100px;
+      height: 100px;
+      object-fit: cover; /* makes them same size without distortion */
       margin-right: 10px;
       vertical-align: middle;
+      border-radius: 6px;
     }
     section {
       margin-bottom: 30px;
@@ -58,7 +64,7 @@
       max-width: 100%;
     }
     footer {
-      background: #004080;
+      background: #002147; /* deep blue */
       color: white;
       text-align: center;
       padding: 10px;
@@ -101,14 +107,13 @@
         </tr>
         <tr>
           <td>
-            <img src="fiber.jpeg" 
-                 alt="Fiber Optic Cable" class="inline">
+            <img src="fiber.jpeg" alt="Fiber Optic Cable" class="inline">
             Uses strands of glass to transmit light signals with high <strong>bandwidth</strong>.
             Reliable because of <strong>redundancy</strong> in the physical network.
             Often has <strong>low roundoff error</strong> and allows nearly <strong>lossless</strong> transmission.
           </td>
           <td>
-            <img src="sat.jpeg"
+            <img src="sat.jpeg" alt="Satellite Internet" class="inline">
             Uses satellites to beam data across long distances. 
             Works globally but may have higher delay due to packet travel along the <strong>path</strong>.  
             Requires <strong>fault tolerant</strong> systems because of weather or orbital issues.
